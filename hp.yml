@@ -50,6 +50,46 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: hamedp71_1
+    port: 443
+    server: uk1.test3.net
+    type: trojan
+    udp: true
+    sni: api.google.com
+    password: 2355cf20-bde2-11ef-82d5-1239d0255272
+    skip-cert-verify: false
+  - name: hamedp71_2
+    port: 443
+    server: fr1.test3.net
+    type: trojan
+    udp: true
+    sni: speedtest.net
+    password: f007cbe0-bde3-11ef-aa3a-1239d0255272
+    skip-cert-verify: false
+  - name: hamedp71_3
+    port: 443
+    server: sg-4.test3.net
+    type: trojan
+    udp: true
+    sni: soft98.ir
+    password: 0a145950-bde4-11ef-b90e-1239d0255272
+    skip-cert-verify: false
+  - name: hamedp71_4
+    port: 443
+    server: usa.test3.net
+    type: trojan
+    udp: true
+    sni: speedtest.net
+    password: 2a12cd30-bde4-11ef-926f-1239d0255272
+    skip-cert-verify: false
+  - name: hamedp71_5
+    port: 443
+    server: sg3-trojan.bonds.id
+    type: trojan
+    udp: true
+    sni: soft98.ir
+    password: 44c62330-bde4-11ef-bfbd-1239d0255272
+    skip-cert-verify: false
   - name: "@meli_proxyy_1"
     port: 443
     server: de04.abvpn.ru
@@ -1767,6 +1807,11 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - hamedp71_1
+      - hamedp71_2
+      - hamedp71_3
+      - hamedp71_4
+      - hamedp71_5
       - "@meli_proxyy_1"
       - "[_1"
       - "@meli_proxyy_2"
@@ -1935,6 +1980,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - hamedp71_1
+      - hamedp71_2
+      - hamedp71_3
+      - hamedp71_4
+      - hamedp71_5
       - "@meli_proxyy_1"
       - "[_1"
       - "@meli_proxyy_2"
@@ -2114,6 +2164,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - hamedp71_1
+      - hamedp71_2
+      - hamedp71_3
+      - hamedp71_4
+      - hamedp71_5
       - "@meli_proxyy_1"
       - "[_1"
       - "@meli_proxyy_2"
