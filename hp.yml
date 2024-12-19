@@ -90,6 +90,19 @@ proxies:
     sni: soft98.ir
     password: 44c62330-bde4-11ef-bfbd-1239d0255272
     skip-cert-verify: false
+  - name: hamedp711
+    port: 443
+    server: soft98.ir
+    type: trojan
+    network: ws
+    udp: true
+    sni: sg3-trojan.bonds.id
+    password: 44c62330-bde4-11ef-bfbd-1239d0255272
+    skip-cert-verify: false
+    ws-opts:
+      path: /howdy
+      headers:
+        host: sg3-trojan.bonds.id
   - name: "@meli_proxyy_1"
     port: 443
     server: de04.abvpn.ru
@@ -1812,6 +1825,7 @@ proxy-groups:
       - hamedp71_3
       - hamedp71_4
       - hamedp71_5
+      - hamedp711
       - "@meli_proxyy_1"
       - "[_1"
       - "@meli_proxyy_2"
@@ -1985,6 +1999,7 @@ proxy-groups:
       - hamedp71_3
       - hamedp71_4
       - hamedp71_5
+      - hamedp711
       - "@meli_proxyy_1"
       - "[_1"
       - "@meli_proxyy_2"
@@ -2169,6 +2184,7 @@ proxy-groups:
       - hamedp71_3
       - hamedp71_4
       - hamedp71_5
+      - hamedp711
       - "@meli_proxyy_1"
       - "[_1"
       - "@meli_proxyy_2"
